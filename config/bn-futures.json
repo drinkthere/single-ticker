@@ -1,0 +1,80 @@
+{
+  "Exchange": "Binance",
+  "LogLevel": "INFO",
+  "LogPath": "/data/dc/new_ticker_forward/bn-futures.log",
+  "BinanceAPIKey": "",
+  "BinanceSecretKey": "",
+  "Sources": [
+    {
+      "IP": "172.31.16.148",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.149",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.150",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.151",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.152",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.154",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.155",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.156",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.157",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.161",
+      "Colo": true
+    },
+    {
+      "IP": "172.31.16.153",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.154",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.158",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.159",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.160",
+      "Colo": false
+    }
+  ],
+  "TickerSource": "BinanceFutures",
+  "LocalForward": false,
+  "PubBindIPCMap": {
+    "BTCETH": "tcp://*:21001"
+  },
+  "InstIDs": [
+    "BTCUSDT",
+    "ETHUSDT"
+  ],
+  "StatSlowConnectionIntervalSeconds": 600,
+  "LastNConnections": 2
+}

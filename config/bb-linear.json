@@ -1,0 +1,61 @@
+{
+  "Exchange": "Byibt",
+  "LogLevel": "INFO",
+  "LogPath": "/data/dc/new_ticker_forward//bb-linear.log",
+  "BinanceAPIKey": "",
+  "BinanceSecretKey": "",
+  "Sources": [
+    {
+      "IP": "10.0.1.95",
+      "Colo": true
+    },
+    {
+      "IP": "10.0.1.158",
+      "Colo": true
+    },
+    {
+      "IP": "10.0.1.159",
+      "Colo": true
+    },
+    {
+      "IP": "10.0.1.160",
+      "Colo": true
+    },
+    {
+      "IP": "10.0.1.161",
+      "Colo": true
+    },
+    {
+      "IP": "10.0.1.95",
+      "Colo": false
+    },
+    {
+      "IP": "10.0.1.158",
+      "Colo": false
+    },
+    {
+      "IP": "10.0.1.159",
+      "Colo": false
+    },
+    {
+      "IP": "10.0.1.160",
+      "Colo": false
+    },
+    {
+      "IP": "10.0.1.161",
+      "Colo": false
+    }
+  ],
+  "BybitPrivateWsUrl": "wss://z6f8wpdq5grrtyo6cgd26quu6y3jjtmx.bybit-aws.com",
+  "TickerSource": "BybitLinear",
+  "LocalForward": false,
+  "PubBindIPCMap": {
+    "BTCETH": "tcp://*:23001"
+  },
+  "InstIDs": [
+    "BTCUSDT",
+    "ETHUSDT"
+  ],
+  "StatSlowConnectionIntervalSeconds": 600,
+  "LastNConnections": 2
+}

@@ -1,0 +1,52 @@
+{
+  "Exchange": "Binance",
+  "LogLevel": "INFO",
+  "LogPath": "/data/dc/new_ticker_forward/bn-spot.log",
+  "BinanceAPIKey": "",
+  "BinanceSecretKey": "",
+  "Sources": [
+    {
+      "IP": "172.31.16.149",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.150",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.151",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.152",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.154",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.155",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.156",
+      "Colo": false
+    },
+    {
+      "IP": "172.31.16.157",
+      "Colo": false
+    }
+  ],
+  "TickerSource": "BinanceSpot",
+  "LocalForward": false,
+  "PubBindIPCMap": {
+    "BTCETH": "tcp://*:20001"
+  },
+  "InstIDs": [
+    "BTCUSDT",
+    "ETHUSDT"
+  ],
+  "StatSlowConnectionIntervalSeconds": 600,
+  "LastNConnections": 4
+}
